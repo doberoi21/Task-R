@@ -43,11 +43,12 @@ body {
   height: 210px;
 }
 
+/* Profile pic styling  */
 img {
   width: 165px;
   height: 170px;
   margin-left: 18%;
-  margin-top: 20px;
+  margin-top: 22px;
   border-radius: 50%;
   border:3px solid white;
 }
@@ -120,7 +121,7 @@ img {
   border-radius: 3px;
   margin: 2px 4px;
 }
-
+/* STyling for RIGHT SECTION OF RESUME */
 .resume_right {
   width: 600px;
   background: #fdfaf6;
