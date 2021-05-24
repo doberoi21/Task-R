@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #585c68;
+  font-size: 14px;
+  line-height: 22px;
+  color: #878796;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.semi-bold {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.resume {
+  width: 800px;
+  height: auto;
+  display: flex;
+  margin: 10px auto;
+}
+
+.resume_left {
+  width: 280px;
+  background:#005792;
+}
+
+ .resume_profile {
+  width: 100%;
+  height: 210px;
+}
+
+img {
+  width: 165px;
+  height: 170px;
+  margin-left: 18%;
+  margin-top: 20px;
+  border-radius: 50%;
+  border:3px solid white;
+}
+
+.resume_content {
+  padding: 0 25px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+ .bold {
+  color: #f2f4c3;
+}
+
+ .regular {
+  color: #f2f4c3;
+}
+
+ .resume_item {
+  padding: 25px 0;
+  border-bottom: 2px solid #f2f4c3;
+}
+
+.resume .resume_left ul li {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+ .icon {
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  border-radius: 50%;
+  margin-right: 13px;
+  font-size: 18px;
+  position: relative;
+}
+
+.icon-color{
+    color: black;
+}
+
+.resume .icon i,
+.resume .resume_right .resume_hobby ul li i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.data {
+  color: #e3e3e6;
+}
+
+.SKILLS{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 2px 4px;
+}
+.skill-list{
+  border:2px solid white;
+  background: white;
+  color:#005792;
+  font-weight: bold;
+  padding: 2px 4px;
+  border-radius: 3px;
+  margin: 2px 4px;
+}
+
+.resume_right {
+  width: 600px;
+  background: #fdfaf6;
+  padding: 10px 20px;
+}
+
+.bold {
+  color: #005792;
+}
+.about-me{
+  color: #6e7582;
+}
+
+.resume .resume_right .resume_work ul,
+.resume .resume_right .resume_education ul {
+  padding-left: 30px;
+  overflow: hidden;
+}
+
+.resume .resume_right ul li {
+  position: relative;
+}
+
+.date {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  color: #393e46;
+}
+
+.info {
+  margin-bottom: 20px;
+  margin-top:5px;
+}
+.role{
+  color:#3d84b8;
+  font-weight: 600;
+}
+
+
+.resume .resume_right .resume_work ul li:before,
+.resume .resume_right .resume_education ul li:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -25px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 2px solid #0bb5f4;
+}
+
+.resume .resume_right .resume_work ul li:after,
+.resume .resume_right .resume_education ul li:after {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: -21px;
+  width: 2px;
+  height: 115px;
+  background: #0bb5f4;
+}
