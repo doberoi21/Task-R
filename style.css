@@ -127,7 +127,7 @@ img {
   padding: 10px 20px;
 }
 
-.bold {
+.resume .resume_right .bold {
   color: #005792;
 }
 .about-me{
@@ -152,8 +152,8 @@ img {
 }
 
 .info {
-  margin-bottom: 20px;
-  margin-top:5px;
+    margin-bottom: 31px;
+  margin-top:15px;
 }
 .role{
   color:#3d84b8;
